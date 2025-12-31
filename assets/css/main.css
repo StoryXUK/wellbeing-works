@@ -6874,7 +6874,7 @@ input.main-search-input::placeholder {
   border-bottom: 1px solid var(--border);
 }
 .service-wrapper ul .service-list .content h3 {
-  font-size: 150px;
+  font-size: 80px;
   font-weight: 500;
   transition: all 0.4s ease-in-out;
 }
