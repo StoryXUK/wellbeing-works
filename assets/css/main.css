@@ -6909,7 +6909,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 575px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 65px;
+    font-size: 40px;
   }
 }
 .service-wrapper ul .service-list .content h3 a:hover {
