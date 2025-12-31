@@ -1,0 +1,450 @@
+/*
+===========================================
+Wellbeing Works - Color System Overrides
+===========================================
+This file applies the new color palette across
+all components and sections.
+===========================================
+*/
+
+/* Primary Button Styles - Bright Terracotta */
+.theme-btn {
+  background-color: var(--theme2) !important;
+  color: var(--white) !important;
+  border-color: var(--theme2) !important;
+}
+
+.theme-btn::after {
+  background-color: var(--theme) !important;
+}
+
+.theme-btn:hover {
+  background-color: var(--theme) !important;
+  color: var(--white) !important;
+  border-color: var(--theme) !important;
+}
+
+.theme-btn.border-white {
+  background-color: transparent !important;
+  border-color: var(--white) !important;
+  color: var(--white) !important;
+}
+
+.theme-btn.border-white:hover {
+  background-color: var(--theme2) !important;
+  border-color: var(--theme2) !important;
+  color: var(--white) !important;
+}
+
+/* Secondary Button - Blue Fusion */
+.theme-btn.theme-color-2,
+.theme-btn-secondary {
+  background-color: var(--theme) !important;
+  color: var(--white) !important;
+  border-color: var(--theme) !important;
+}
+
+.theme-btn.theme-color-2:hover,
+.theme-btn-secondary:hover {
+  background-color: var(--theme2) !important;
+  border-color: var(--theme2) !important;
+}
+
+/* Links */
+a {
+  color: var(--theme);
+}
+
+a:hover,
+a:focus {
+  color: var(--theme2);
+}
+
+/* Headers and Titles */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--header);
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6 {
+  color: var(--white) !important;
+}
+
+/* Section Backgrounds */
+.section-bg {
+  background-color: var(--bg2) !important;
+}
+
+.bg-cover {
+  background-color: var(--bg);
+}
+
+/* Footer */
+.footer-section {
+  background-color: var(--testi-bg);
+  color: var(--white);
+}
+
+.footer-section a {
+  color: var(--white);
+}
+
+.footer-section a:hover {
+  color: var(--theme2);
+}
+
+/* Cards and Boxes */
+.about-items,
+.service-box-items,
+.project-box-items,
+.news-box-items {
+  background-color: var(--bg2);
+  border-color: var(--border2);
+}
+
+.about-items:hover,
+.service-box-items:hover,
+.project-box-items:hover,
+.news-box-items:hover {
+  box-shadow: var(--box-shadow);
+}
+
+/* Forms */
+input,
+textarea,
+select {
+  border-color: var(--border);
+  color: var(--text);
+  background-color: var(--white);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--theme);
+  outline-color: var(--theme);
+}
+
+/* Navigation */
+.header-1 {
+  background-color: transparent;
+}
+
+.header-1.sticky {
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+}
+
+.mean-container .mean-nav ul li a {
+  color: var(--text);
+}
+
+.mean-container .mean-nav ul li a:hover {
+  color: var(--theme2);
+}
+
+/* Hero Section */
+.hero-section {
+  color: var(--white);
+}
+
+.hero-section h1,
+.hero-section h2,
+.hero-section p {
+  color: var(--white);
+}
+
+/* About Section */
+.about-section {
+  background-color: var(--bg);
+}
+
+.about-list li {
+  color: var(--text);
+}
+
+.about-list li:hover {
+  color: var(--theme);
+}
+
+/* Service Section */
+.service-list .content h3 a {
+  color: var(--header);
+}
+
+.service-list .content h3 a:hover {
+  color: var(--theme2);
+}
+
+.service-list p {
+  color: var(--text2);
+}
+
+/* Testimonials */
+.testimonial-section {
+  background-color: var(--testi-bg);
+}
+
+.testimonial-content {
+  color: var(--white);
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: var(--theme3);
+}
+
+/* Borders */
+.bor-bottom {
+  border-bottom-color: var(--border2) !important;
+}
+
+.bor-top {
+  border-top-color: var(--border2) !important;
+}
+
+/* Icons and Accents */
+.icon,
+.icon-box {
+  color: var(--theme2);
+}
+
+.icon:hover,
+.icon-box:hover {
+  color: var(--theme);
+}
+
+/* Social Icons */
+.social-icon a {
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.social-icon a:hover {
+  background-color: var(--theme2);
+  border-color: var(--theme2);
+  color: var(--white);
+}
+
+/* Pagination */
+.pagination .page-link {
+  color: var(--theme);
+  border-color: var(--border2);
+}
+
+.pagination .page-link:hover {
+  background-color: var(--theme2);
+  border-color: var(--theme2);
+  color: var(--white);
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--theme);
+  border-color: var(--theme);
+}
+
+/* Breadcrumbs */
+.breadcrumb-wrapper {
+  background-color: var(--bg);
+}
+
+.breadcrumb-link a {
+  color: var(--theme);
+}
+
+.breadcrumb-link a:hover {
+  color: var(--theme2);
+}
+
+/* Tags */
+.tag,
+.badge {
+  background-color: var(--theme3);
+  color: var(--text);
+}
+
+.tag:hover,
+.badge:hover {
+  background-color: var(--theme2);
+  color: var(--white);
+}
+
+/* Counters and Stats */
+.counter-items .content h2 {
+  color: var(--theme2);
+}
+
+/* Video Popup */
+.video-icon {
+  background-color: var(--theme2);
+  color: var(--white);
+}
+
+.video-icon:hover {
+  background-color: var(--theme);
+}
+
+/* Back to Top */
+.back-to-top {
+  background-color: var(--theme2);
+  color: var(--white);
+}
+
+.back-to-top:hover {
+  background-color: var(--theme);
+}
+
+/* Offcanvas Menu */
+.offcanvas__info {
+  background-color: var(--white);
+}
+
+.offcanvas__close button {
+  color: var(--text);
+}
+
+.offcanvas__close button:hover {
+  color: var(--theme2);
+}
+
+/* Pricing Tables */
+.pricing-box {
+  background-color: var(--bg2);
+  border-color: var(--border2);
+}
+
+.pricing-box.active,
+.pricing-box:hover {
+  background-color: var(--theme);
+  color: var(--white);
+}
+
+.pricing-box.active h3,
+.pricing-box.active p,
+.pricing-box:hover h3,
+.pricing-box:hover p {
+  color: var(--white);
+}
+
+/* Team Cards */
+.team-box-items {
+  background-color: var(--bg2);
+}
+
+.team-box-items:hover {
+  box-shadow: var(--box-shadow);
+}
+
+/* News/Blog */
+.news-box-items {
+  background-color: var(--bg2);
+}
+
+.news-box-items .content h3 a {
+  color: var(--header);
+}
+
+.news-box-items .content h3 a:hover {
+  color: var(--theme2);
+}
+
+.news-box-items .content .post-meta a {
+  color: var(--text2);
+}
+
+.news-box-items .content .post-meta a:hover {
+  color: var(--theme2);
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea {
+  background-color: var(--white);
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--theme);
+}
+
+/* FAQ Accordion */
+.accordion-button {
+  background-color: var(--bg2);
+  color: var(--text);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--theme);
+  color: var(--white);
+}
+
+.accordion-button:focus {
+  border-color: var(--theme);
+  box-shadow: 0 0 0 0.25rem rgba(79, 97, 114, 0.25);
+}
+
+/* Alerts and Notifications */
+.alert-info {
+  background-color: var(--theme3);
+  border-color: var(--theme3);
+  color: var(--text);
+}
+
+.alert-success {
+  background-color: var(--theme);
+  border-color: var(--theme);
+  color: var(--white);
+}
+
+.alert-warning {
+  background-color: var(--theme2);
+  border-color: var(--theme2);
+  color: var(--white);
+}
+
+/* Loading States */
+.spinner-border {
+  color: var(--theme2);
+}
+
+/* Disabled States */
+.disabled,
+:disabled {
+  opacity: 0.5;
+  color: var(--text2);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--theme2);
+  color: var(--white);
+}
+
+::-moz-selection {
+  background-color: var(--theme2);
+  color: var(--white);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme2);
+}
